@@ -26,7 +26,6 @@ public class EstruturaSwitch {
 			break;
 		}
 		
-
 		leitor.close();
 
 	}
