@@ -7,13 +7,14 @@ public class EstruturaSwitch {
 		 * Caso digite qualquer outro número, deve ser exibida a mensagem "opção inválida"*/
 		Scanner leitor = new Scanner(System.in);
 		int opcao;
+		
 		System.out.println("ELOGIADOR!");
 		System.out.println("Selecione a opção desejada:\n1-Elogio profissional\n2-Elogio físico\n3-Elogio pessoal");
 		opcao = leitor.nextInt();
 	
 		//Aqui precisamos de uma estrutura para validar a opção inserida.
 		switch (opcao) {
-		case 1:
+		case 1: 
 			System.out.println("Você é um excelente programador");
 			break;
 		case 2:
@@ -24,6 +25,7 @@ public class EstruturaSwitch {
 			System.out.println("A opção selecionada é inválida");
 			break;
 		}
+		
 
 		leitor.close();
 
